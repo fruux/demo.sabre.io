@@ -1,0 +1,14 @@
+{
+    "name": "fruux/demo.sabre.io",
+    "description": "demo.sabre.io",
+    "require": {
+        "sabre/dav": "dev-master"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Evert Pot",
+            "email": "me@evertpot.com"
+        }
+    ]
+}
