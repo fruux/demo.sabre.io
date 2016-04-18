@@ -4,6 +4,8 @@
     "require": {
         "sabre/dav": "dev-master"
     },
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
     "license": "BSD-3-Clause",
     "authors": [
         {
