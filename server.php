@@ -115,7 +115,6 @@ if (isset($baseUri)) $server->setBaseUri($baseUri);
 $server->addPlugin(new \Sabre\DAV\Auth\Plugin($authBackend));
 $server->addPlugin(new \Sabre\DAV\Browser\Plugin());
 $server->addPlugin(new \Sabre\DAV\Sync\Plugin());
-$server->addPlugin(new \Sabre\DAV\Sharing\Plugin());
 
 //ACL
 $aclPlugin = new \Sabre\DAVACL\Plugin();
@@ -125,7 +124,6 @@ $server->addPlugin($aclPlugin);
 // CalDAV plugins
 $server->addPlugin(new \Sabre\CalDAV\Plugin());
 $server->addPlugin(new \Sabre\CalDAV\Schedule\Plugin());
-$server->addPlugin(new \Sabre\CalDAV\SharingPlugin());
 $server->addPlugin(new \Sabre\CalDAV\ICSExportPlugin());
 
 // CardDAV plugins
