@@ -134,7 +134,7 @@ $server->addPlugin(new \Sabre\CardDAV\VCFExportPlugin());
 
 // Sharing
 $server->addPlugin(new \Sabre\DAV\Sharing\Plugin());
-$server->addPlugin(new \Sabre\CalDAV\Sharing\Plugin());
+$server->addPlugin(new \Sabre\CalDAV\SharingPlugin());
 
 
 // And off we go!
